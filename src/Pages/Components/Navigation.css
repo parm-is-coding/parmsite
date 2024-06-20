@@ -1,0 +1,26 @@
+.Navigation {
+    /* Spacing */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* Sizing */
+    padding: 1rem 2rem;
+    
+    /* Colouring */
+    background-color: #333;
+    color: white;
+
+   
+}
+
+.Navigation ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Navigation li {
+    text-align: center;
+}
